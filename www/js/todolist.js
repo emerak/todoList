@@ -3,6 +3,7 @@ $('.button-task').on('click',function(){
   tasks_count = tasks_count+1;  
   var task = $(".text-task").val();
   $(".to-do-list").append("<div class="+tasks_count+"><p class="+tasks_count+">"+task+"</p><button class='delete-task' id="+tasks_count+">X</button></div>");
+  $(".text-task").val("");
   delete_task();
  })
 
