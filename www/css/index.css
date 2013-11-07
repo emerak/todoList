@@ -113,3 +113,9 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+.to-do-list {
+  text-transform: none;
+}
+.to-do-list .hidden {
+  display: none;
+}
