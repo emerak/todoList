@@ -69,3 +69,10 @@ body {
     }
 }
 
+.mail #time p{
+  font-color: BLUE;
+}
+
+h2 {
+color: #DDE3E5;
+}

@@ -27,12 +27,13 @@
 
     <link href="css/kendo.common.min.css" rel="stylesheet" />
     <link href="css/kendo.mobile.all.min.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
 </head>
 
 <body>
   <div data-role="view" data-layout="overview-layout" id="email" data-title="">
     <ul data-role="listview" data-style="inset" data-type="group">
-      <li>OP</li>
+      <ul class="mail-list"></ul>
     </ul>
   </div>
 
@@ -44,10 +45,10 @@
 
     <footer data-role="footer">
       <div data-role="tabstrip">
-        <a data-icon="bookmarks" href="#messages">Email</a>
-        <a data-icon="fastforward" href="#new-message">New Email</a>
-        <a data-icon="contacts" href="#contacts">Contacts</a>
-        <a data-icon="settings" href="#account">My Account</a>
+        <a id='show'data-icon="bookmarks" href="">Email</a>
+        <a id='new' data-icon="fastforward" href="">New Email</a>
+        <a id='contacts'data-icon="contacts" href="">Contacts</a>
+        <a id='account'data-icon="settings" href="">My Account</a>
       </div>
     </footer>
   </div>
